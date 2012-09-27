@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {8E5DA2A2-D4EC-4DBB-875A-0D04A799718E}
+database: master
+path: /sitecore/content/Home/PhotoAlbums/d/darvin/Cool/Hydrangeas
+parent: {EC180F85-DF7C-4BA8-AAA8-EED1AB475C5C}
+name: Hydrangeas
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE2CA30E-6550-4037-B57F-4A696A877168}
+templatekey: Photo
+
+----field----
+field: {34803BD8-7D23-41F2-9724-4F860F787535}
+name: Title
+key: title
+content-length: 10
+
+Hydrangeas
+----field----
+field: {FF589A7B-7A2F-4300-A337-7E38645B030F}
+name: image
+key: image
+content-length: 178
+
+<image mediaid="{42AF3CE4-53D1-453E-BC34-4C06A796931C}" mediapath="/Images/PhotoAlbums/d/darvin/Cool/Hydrangeas" src="~/media/Images/PhotoAlbums/d/darvin/Cool/Hydrangeas.ashx" />
+----version----
+language: en
+version: 1
+revision: 6dd9aa9f-0fcf-4e99-88bc-de04febbf7c2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110809T152300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6dd9aa9f-0fcf-4e99-88bc-de04febbf7c2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110809T153313:634485007931558000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

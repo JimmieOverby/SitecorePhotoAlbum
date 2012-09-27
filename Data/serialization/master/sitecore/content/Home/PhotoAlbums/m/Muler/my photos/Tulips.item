@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {F53F6678-BE84-4A9C-9EB8-717A148B1247}
+database: master
+path: /sitecore/content/Home/PhotoAlbums/m/Muler/my photos/Tulips
+parent: {B8FC3CF4-F820-448B-B3AA-3F0372B259CD}
+name: Tulips
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE2CA30E-6550-4037-B57F-4A696A877168}
+templatekey: Photo
+
+----field----
+field: {34803BD8-7D23-41F2-9724-4F860F787535}
+name: Title
+key: title
+content-length: 6
+
+Tulips
+----field----
+field: {FF589A7B-7A2F-4300-A337-7E38645B030F}
+name: image
+key: image
+content-length: 178
+
+<image mediaid="{DADD03D2-531F-449D-AF16-E3E7ACFB63C1}" mediapath="/Images/PhotoAlbums/m/Muler/my photos/Tulips" src="~/media/Images/PhotoAlbums/m/Muler/my photos/Tulips.ashx" />
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: e663ffe5-de49-4bfe-ba14-715eabfcc3f3
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110809T153000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e663ffe5-de49-4bfe-ba14-715eabfcc3f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110809T153340:634485008204788000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

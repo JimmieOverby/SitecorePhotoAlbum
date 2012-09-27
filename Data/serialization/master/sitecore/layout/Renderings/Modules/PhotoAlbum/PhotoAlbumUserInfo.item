@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {ABF7DAF2-0758-4555-8AD2-06C3E29723C7}
+database: master
+path: /sitecore/layout/Renderings/Modules/PhotoAlbum/PhotoAlbumUserInfo
+parent: {A9F6D9CA-E363-497B-B361-E7C284CBEFB3}
+name: PhotoAlbumUserInfo
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1F1D639-4F54-40C2-8BE0-81266B392CEB}
+templatekey: Xsl Rendering
+
+----field----
+field: {78783F79-1411-4B91-958D-AD81F81E2485}
+name: Path
+key: path
+content-length: 67
+
+/sitecore modules/Web/PhotoAlbum/Renderings/PhotoAlbumUserInfo.xslt
+----version----
+language: en
+version: 1
+revision: 4864a504-cf20-498d-b1ed-bc27d5991a1c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110810T175546
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4864a504-cf20-498d-b1ed-bc27d5991a1c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20110810T175550:634485957506516000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

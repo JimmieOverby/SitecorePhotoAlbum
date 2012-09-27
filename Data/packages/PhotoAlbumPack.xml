@@ -1,0 +1,795 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>PhotoAlbum </PackageName>
+      <Author>Yushchenko Michael</Author>
+      <Version>v1.0.0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>Sitecore @2011</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <items>
+      <Database>master</Database>
+      <Root>{F4B89D05-8899-4434-A13A-24F365EDF8FB}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Item</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{A9F6D9CA-E363-497B-B361-E7C284CBEFB3}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Rendering</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{01A2C9A0-9126-4F68-944F-F0620625A1C2}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Sublayout</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{C877273B-B26C-468C-899C-058DD7B991C3}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Media</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{FA386A28-D2B7-4663-B238-6E5008C83E18}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>template</Name>
+    </items>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/PhotoAlbum.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>config</Name>
+    </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitecore.Modules.PhotoAlbum.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>dll</Name>
+    </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/sitecore modules/Web/PhotoAlbum/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/FeedHelperClass/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/FeedHelperClass/FeedHelper.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumConstants.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumCore.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumHelper.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumObject.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumReviewConstants.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/PhotoAlbumReviewHelper.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/UrlShortenerClass/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/UrlShortenerClass/GoogleUrlShortener.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/BusinessLayer/UrlShortenerClass/IUrlShortener.cs</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/js/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/js/jquery-1.6.2.min.js</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/js/PhotoAlbum.js</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/AllPhotoAlbums.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/MiniImageGallery.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/MyPhotoAlbums.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/PhotoAlbum.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/PhotoAlbumUserInfo.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/PhotoAlbumUserInfoWrapper.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Renderings/ShowAllPhotoAlbums.xslt</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/common_photoalbum.css</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/fonts/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/fonts/tradegothic-boldtwo-webfont.eot</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/fonts/tradegothic-boldtwo-webfont.svg</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/fonts/tradegothic-boldtwo-webfont.ttf</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/fonts/tradegothic-boldtwo-webfont.woff</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-autopost-row.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-autopost-top.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-connect.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-linked-bot.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-linked-row.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-linked-top.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-shadow.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/bg-shadow-albums.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/btn-submit.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/btn-submit-gray.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/fieldset_large_70.jpg</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/large_red_on_white.gif</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/large_red_photo.gif</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/section-divider.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-back.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-bg.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-forward.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-minus.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-pause.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-play.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/slideshow-plus.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/social-rss.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Styles/images/stars.png</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Sublayouts/</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Sublayouts/AlbumOverview.ascx</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Sublayouts/CreatePhotoAlbum.ascx</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Sublayouts/PhotoDetail.ascx</x-item>
+        <x-item>/sitecore modules/Web/PhotoAlbum/Sublayouts/UploadPhotos.ascx</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+    <items>
+      <Database>master</Database>
+      <Root>{E7AE772A-790C-43B3-A26C-C87A317BD1CA}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Zoom Template</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{AFC7399B-C2D7-4CBD-8DF2-26573C89E2C1}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Zoom media</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{461D76F7-7DBA-4B8B-A384-0858759BC5E2}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>ZoomRendering</Name>
+    </items>
+    <xfiles>
+      <Entries>
+        <x-item>/xsl/ZoomFlash/</x-item>
+        <x-item>/xsl/ZoomFlash/ZoomFlash.xslt</x-item>
+        <x-item>/xsl/ZoomFlash/ZoomFlash_XMLOutput.xslt</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Zoom xlst file</Name>
+    </xfiles>
+    <items>
+      <Database>master</Database>
+      <Root>{AAAE598A-7D28-43D7-A8A3-E31829F162F2}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Zoom Globals Spot</Name>
+    </items>
+    <items>
+      <Database>master</Database>
+      <Root>{B8A10A89-B239-4E95-9CAC-EBAE361DAAB6}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Zoom Layout XML wrapper</Name>
+    </items>
+    <xfiles>
+      <Entries>
+        <x-item>/layouts/Global/XmlWrapper.aspx</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Zoom Layout Globals file</Name>
+    </xfiles>
+    <items>
+      <Database>master</Database>
+      <Root>{940BF762-C05B-4C33-841F-A430B62A0959}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>Zoom Device Xml output</Name>
+    </items>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
